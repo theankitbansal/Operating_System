@@ -117,4 +117,30 @@ Signals
 Main memory: Main memory in a computer is RAM (Random Access Memory). It is also known as primary memory or read-write memory or internal memory. The programs and data that the CPU requires during the execution of a program are stored in this memory.
 Secondary memory: Secondary memory in a computer are storage devices that can store data and programs. It is also known as external memory or additional memory or backup memory or auxiliary memory. Such storage devices are capable of storing high-volume data. Storage devices can be hard drives, USB flash drives, CDs, etc. 
 
+![Screenshot (982)](https://user-images.githubusercontent.com/81725794/183254515-98838e55-6d8f-4a50-a406-4936220376d2.png)
+
+14. What do you mean by overlays in OS?
+
+Overlays is basically a programming method that divides processes into pieces so that instructions that are important and need can be saved in memory. It does not need any type of support from the OS. It can run programs that are bigger in size than physical memory by only keeping only important data and instructions that can be needed at any given time. 
+
+15. Write top 10 examples of OS?
+
+Some of the top OS’s that are used mostly are given below:
+
+MS-Windows
+Ubuntu
+Mac OS
+Fedora
+Solaris
+Free BSD
+Chrome OS
+CentOS
+Debian
+Android
+
+Intermediate OS Interview Questions
+
+16. What is virtual memory?
+
+
 
