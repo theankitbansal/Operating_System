@@ -142,5 +142,58 @@ Intermediate OS Interview Questions
 
 16. What is virtual memory?
 
+It is a memory management technique feature of OS that creates the illusion to users of a very large (main) memory. It is simply space where a greater number of programs can be stored by themselves in the form of pages. It enables us to increase the use of physical memory by using a disk and also allows us to have memory protection. It can be managed in two common ways by OS i.e., paging and segmentation. It acts as temporary storage that can be used along with RAM for computer processes. 
+
+![image](https://user-images.githubusercontent.com/81725794/183254565-575660a8-cca4-4eaf-b532-91f2c4896b90.png)
+
+17. What is thread in OS?
+
+Thread is a path of execution that is composed of a program counter, thread id, stack, and set of registers within the process. It is a basic unit of CPU utilization that makes communication more effective and efficient, enables utilization of multiprocessor architectures to a greater scale and greater efficiency, and reduces the time required in context switching. It simply provides a way to improve and increase the performance of applications through parallelism. Threads are sometimes called lightweight processes because they have their own stack but can access shared data. 
+
+Multiple threads running in a process share: Address space, Heap, Static data, Code segments, File descriptors, Global variables, Child processes, Pending alarms, Signals, and signal handlers. 
+
+Each thread has its own: Program counter, Registers, Stack, and State.
+
+![image](https://user-images.githubusercontent.com/81725794/183254583-e155df2f-595c-4db7-9c3d-0789b73d7118.png)
+
+18. What is a process? What are the different states of a process?
+
+The process is basically a program that is currently under execution. The main function of an OS is to manage and handle all of these processes. When a program is loaded into the memory and it becomes a process, it can be divided into four sections ─ stack, heap, text, and data. There are two types of processes:
+
+1. Operating System Processes
+2. User Processes
+
+![image](https://user-images.githubusercontent.com/81725794/183254606-e523b891-e8e3-4e22-87c0-3f0a7ed3a566.png)
+
+States of Process:
+
+Different states of the process through which process goes are given below:
+
+New State: In this state, a process is just created.
+Running: In this state, the CPU starts working on the process’s instructions.
+Waiting: In this state, the process cannot run because it just waits for some event to occur
+Ready: In this state, the process has all resources available that are required to run but it waits to get assigned to a processor because CPUs are not working currently on instructions passed by the process.
+Terminate: In this state, the process is completed I.e., the process has finished execution.
+
+19. What do you mean by FCFS?
+
+FCFS (First Come First Serve) is a type of OS scheduling algorithm that executes processes in the same order in which processes arrive. In simple words, the process that arrives first will be executed first. It is non-preemptive in nature. FCFS scheduling may cause the problem of starvation if the burst time of the first process is the longest among all the jobs. Burst time here means the time that is required in milliseconds by the process for its execution. It is also considered the easiest and simplest OS scheduling algorithm as compared to others. Implementation of FCFS is generally managed with help of the FIFO (First In First Out) queue. 
+
+20. What is Reentrancy?
+
+Reentrant is simply a function in which various clients can use and shares a single copy of a program during a similar period. This concept is generally associated with OS code and does not deal with concurrency. It has two major functions:
+
+Program code cannot change or modify itself.
+Local data for every client process needs to be stored in different disks.
+
+21. What is a Scheduling Algorithm? Name different types of scheduling algorithms.
+
+A scheduling algorithm is a process that is used to improve efficiency by utilizing maximum CPU and providing minimum waiting time to tasks. It simply deals with the problem of deciding which of outstanding requests is to be allocated resources. Its main aim is to reduce resource starvation and to ensure fairness amongst parties that are utilizing the resources. In simple words, it is used to allocate resources among various competing tasks. 
+
+Types of Scheduling Algorithm
+
+There are different types of scheduling algorithms as given below:
+
+![image](https://user-images.githubusercontent.com/81725794/183254628-58d7b292-6762-465e-b20b-bb8a1ac0583f.png)
 
 
