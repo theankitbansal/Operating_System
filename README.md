@@ -67,4 +67,54 @@ It is generally a program that initializes OS during startup i.e., first code th
 
 ![image](https://user-images.githubusercontent.com/81725794/183254404-42248347-d82d-454b-b102-fefc855a9c6a.png)
 
+9. Explain demand paging?
+
+Demand paging is a method that loads pages into memory on demand. This method is mostly used in virtual memory. In this, a page is only brought into memory when a location on that particular page is referenced during execution. The following steps are generally followed:
+
+Attempt to access the page.
+If the page is valid (in memory) then continue processing instructions as normal.
+If a page is invalid then a page-fault trap occurs.
+Check if the memory reference is a valid reference to a location on secondary memory. If not, the process is terminated (illegal memory access). Otherwise, we have to page in the required page.
+Schedule disk operation to read the desired page into main memory.
+Restart the instruction that was interrupted by the operating system trap.
+
+10. What do you mean by RTOS?
+
+Real Time Operating System (RTOS) is an operating system that is used for real-time applications i.e., for those applications where data processing should be done in a fixed and small measure of time. It performs much better on tasks that are needed to be executed within a short time. It also takes care of execution, monitoring, and all-controlling processes. It also occupies less memory and consumes fewer resources. 
+
+Types of RTOS:
+
+Hard Real-Time
+Firm Real-Time
+Soft Real-Time
+
+![image](https://user-images.githubusercontent.com/81725794/183254437-dae44043-dea6-4872-9055-7b541bc3c77b.png)
+
+RTOS is used in Air traffic control systems, Anti-lock Brake Systems, and Heart pacemakers.
+
+11. What do you mean by process synchronization?
+
+Process synchronization is basically a way to coordinate processes that use shared resources or data. It is very much essential to ensure synchronized execution of cooperating processes so that will maintain data consistency. Its main purpose is to share resources without any interference using mutual exclusion. There are two types of process synchronization:
+
+Independent Process
+Cooperative Process
+
+12. What is IPC? What are the different IPC mechanisms?
+
+IPC (Interprocess Communication) is a mechanism that requires the use of resources like a memory that is shared between processes or threads. With IPC, OS allows different processes to communicate with each other. It is simply used for exchanging data between multiple threads in one or more programs or processes. In this mechanism, different processes can communicate with each other with the approval of the OS.
+
+Different IPC Mechanisms:
+
+Pipes
+Message Queuing
+Semaphores
+Socket
+Shared Memory
+Signals
+
+13. What is different between main memory and secondary memory.
+
+Main memory: Main memory in a computer is RAM (Random Access Memory). It is also known as primary memory or read-write memory or internal memory. The programs and data that the CPU requires during the execution of a program are stored in this memory.
+Secondary memory: Secondary memory in a computer are storage devices that can store data and programs. It is also known as external memory or additional memory or backup memory or auxiliary memory. Such storage devices are capable of storing high-volume data. Storage devices can be hard drives, USB flash drives, CDs, etc. 
+
 
