@@ -247,4 +247,16 @@ Raw Sockets
 
 28. Explain zombie process?
 
+Zombie process, referred to as a defunct process, is basically a process that is terminated or completed but the whole process control block is not cleaned up from the main memory because it still has an entry in the process table to report to its parent process. It does not consume any of the resources and is dead, but it still exists. It also shows that resources are held by process and are not free.
 
+29. What do you mean by cascading termination?
+
+Cascading termination is a process termination in which if the parent process is exiting or terminating then the children process will also get terminated. It does not allow the child to continue processing as its parent process terminates. It is generally initiated by OS.
+
+30. What is starvation and aging in OS?
+
+When we use Priority Scheduling or Shortest Job First Scheduling, Starvation can happen, This algorithm is mostly used in CPU schedulers
+
+Starvation: It is generally a problem that usually occurs when a process has not been able to get the required resources it needs for progress with its execution for a long period of time. In this condition, low priority processes get blocked and only high priority processes proceed towards completion because of which low priority processes suffer from lack of resources. 
+
+Aging: It is a technique that is used to overcome the situation or problem of starvation. It simply increases the priority of processes that wait in the system for resources for a long period of time. It is considered the best technique to resolve the problem of starvation as it adds an aging factor to the priority of each and every request by various processes for resources. It also ensures that low-level queue jobs or processes complete their execution. 
