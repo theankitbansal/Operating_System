@@ -196,4 +196,27 @@ There are different types of scheduling algorithms as given below:
 
 ![image](https://user-images.githubusercontent.com/81725794/183254628-58d7b292-6762-465e-b20b-bb8a1ac0583f.png)
 
+22. What is the difference between paging and segmentation?
+
+Paging: It is generally a memory management technique that allows OS to retrieve processes from secondary storage into main memory. It is a non-contiguous allocation technique that divides each process in the form of pages. 
+
+Segmentation: It is generally a memory management technique that divides processes into modules and parts of different sizes. These parts and modules are known as segments that can be allocated to process.
+
+![Screenshot (983)](https://user-images.githubusercontent.com/81725794/183275627-8a7abc9f-0d27-4ed6-bf5b-11f91b4dca56.png)
+
+23. What is thrashing in OS?
+
+It is generally a situation where the CPU performs less productive work and more swapping or paging work. It spends more time swapping or paging activities rather than its execution. By evaluating the level of CPU utilization, a system can detect thrashing. It occurs when the process does not have enough pages due to which the page-fault rate is increased. It inhibits much application-level processing that causes computer performance to degrade or collapse. 
+
+24. What is the main objective of multiprogramming?
+
+It refers to the ability to execute or perform more than one program on a single processor machine. This technique was introduced to overcome the problem of underutilization of CPU and main memory. In simple words, it is the coordination of execution of various programs simultaneously on a single processor (CPU). The main objective of multiprogramming is to have at least some processes running at all times. It simply improves the utilization of the CPU as it organizes many jobs where the CPU always has one to execute. 
+
+![image](https://user-images.githubusercontent.com/81725794/183275639-0ba18f88-f2c2-44f7-8961-1245aae8aaba.png)
+
+25. What do you mean by asymmetric clustering?
+
+Asymmetric Clustering is generally a system in which one of the nodes among all nodes is in hot standby mode whereas the rest of all nodes run different applications. It simply uses whole or entire hardware resources therefore it is considered a more reliable system as compared to others. 
+
+![image](https://user-images.githubusercontent.com/81725794/183275646-5c84dbf2-e20c-4bd8-92c6-f2a24598d87d.png)
 
