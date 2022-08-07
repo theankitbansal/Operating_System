@@ -220,3 +220,31 @@ Asymmetric Clustering is generally a system in which one of the nodes among all 
 
 ![image](https://user-images.githubusercontent.com/81725794/183275646-5c84dbf2-e20c-4bd8-92c6-f2a24598d87d.png)
 
+26. What is the difference between multitasking and multiprocessing OS?
+
+Multitasking: It is a system that allows more efficient use of computer hardware. This system works on more than one task at one time by rapidly switching between various tasks. These systems are also known as time-sharing systems.
+
+![image](https://user-images.githubusercontent.com/81725794/183275654-713edbe0-6898-450f-8417-ebad9356aa7b.png)
+
+Multiprocessing: It is a system that allows multiple or various processors in a computer to process two or more different portions of the same program simultaneously. It is used to complete more work in a shorter period of time. 
+
+![image](https://user-images.githubusercontent.com/81725794/183275659-0182110b-bf54-478d-b824-336d15a19d9f.png)
+
+![Screenshot (984)](https://user-images.githubusercontent.com/81725794/183275689-d76d7826-4f66-4aac-b27f-747eab0e5c49.png)
+
+27. What do you mean by Sockets in OS?
+
+The socket in OS is generally referred to as an endpoint for IPC (Interprocess Communication). Here, the endpoint is referred to as a combination of an IP address and port number.  Sockets are used to make it easy for software developers to create network-enabled programs. It also allows communication or exchange of information between two different processes on the same or different machines. It is mostly used in client-server-based systems. 
+
+Types of Sockets
+
+There are basically four types of sockets as given below:
+
+Stream Sockets
+Datagram Sockets
+Sequenced Packet Sockets
+Raw Sockets
+
+28. Explain zombie process?
+
+
